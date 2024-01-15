@@ -1197,7 +1197,7 @@ def main():
             if sw_pin.value() == False and not button_down:
                 button_down = True
                 sleep(0.2)
-                mainmenu()
+                rfidread()
             if sw_pin.value() and button_down:
                 button_down = False
 
